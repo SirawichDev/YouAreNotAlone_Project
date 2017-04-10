@@ -1,0 +1,84 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.1'
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    defaultConfig {
+        applicationId "io.atlanticlab.pubnubmaptracker"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'com.google.android.gms:play-services:6.5.87'
+    compile 'com.android.support:design:25.0.1'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.github.chenupt.android:springindicator:1.0.2@aar'
+    compile 'info.hoang8f:fbutton:1.0.5'
+    compile 'devlight.io:navigationtabbar:1.2.5'
+    compile 'com.github.recruit-lifestyle:WaveSwipeRefreshLayout:1.6'
+    compile 'com.balysv:material-ripple:1.0.2'
+    compile 'com.github.florent37:materialtextfield:1.0.7'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.github.john990:WaveView:v0.9'
+    compile 'com.mxn.soul:flowingdrawer-core:2.0.0'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.github.ksoichiro:android-observablescrollview:1.5.1'
+    compile 'com.github.ppamorim:recyclerrenderers:1.2.2'
+    compile 'com.jakewharton:butterknife:6.1.0'
+    compile 'com.facebook.fresco:fresco:0.8.1'
+    compile 'com.mxn.soul:flowingdrawer-core:2.0.0'
+    compile 'com.nineoldandroids:library:2.4.0'
+
+}
+
+repositories {
+    mavenCentral()
+
+}
+
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
+}
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
+}
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
+}
+dependencies {
+    compile('com.mapbox.mapboxsdk:mapbox-android-sdk:0.6.0@aar') {
+        transitive = true
+    }
+}
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
+}
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
+}
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
+}
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
+}

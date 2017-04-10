@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Channelforfollow">
+
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/display"
+        fbutton:shadowHeight="2dp"
+        fbutton:cornerRadius="20dp"
+        fbutton:buttonColor="@color/fbutton_color_alizarin"
+        fbutton:shadowEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:onClick="t1"
+        android:padding="50dp"
+        android:text="Let's Follow your Freind"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="27dp" />
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:mtf_image="@drawable/ic_third"
+        android:layout_marginTop="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Freind Channel "
+            android:textColor="#333"
+            android:textColorHint="#666"
+            android:textSize="15sp"
+            android:id="@+id/simpleEditText"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+</RelativeLayout>

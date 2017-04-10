@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.gradle\caches\modules-2\files-2.1\com.jakewharton\disklrucache\2.0.2\93b399470e72c0bc8cb52379943b63c9aa586cd8\disklrucache-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="93b399470e72c0bc8cb52379943b63c9aa586cd8">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\disklrucache-2.0.2_2b98e51faee68d9dc7a7ffbf759747cab5084a4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\d20e4063b371b4a4c10a79694c757c5c84fbe95a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2c12397a785c3b1868fbebeffc9553457b27803f">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0664378e4e11fdda0cc9e1c20a004ef96ebc8370\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_0e1dd75b7d587d6b69dec05f0a2fe35a99af5dc1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.2.0\c0b52915a48fa91b1b94a28d4a2997bac5f524df\okio-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.2.0_0d8d0de591148a6a4217c54d3b4b9e6d12e042d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\44870179a4da0c383dd12bd79d261bfce71fe08f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8e78f8def86b107f394bcb302d23660f9cecf3df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\dd104c5b743560e201faef955461733d82f39945\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2ad8597f035f882922048908850e725dc95f9add">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ce98b83abfc9acc4a95a2598a9725ec827bfa3e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\406b4ca49d004d4e077debc5e7a518d283fea1d1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c733e9d1b065d940a08f2fca0ff920dfc08d94cc">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dd2bd3dc3f25c15095de2e093274fabda8b84711\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\41ca37c97f455a03552f62ad22517dd0fbdc6857\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_805d86476294a4e2265b9f1a51067e3649e3f714\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\c8fbf6232721d43b090840659ffd36db04d65955\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c09bfba99a56ba1ab92e4b5dfd12df0bf47d2014\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\libs\bcprov-jdk15on-1.47.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b6f5d9926b0afbde9f4dbe3db88c5247be7794bb">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\2\bcprov-jdk15on-1.47_9febd58006255d6000c87603135265e4d95c1b71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\e1827c534b4da647cafe305a6fdbcbd0f178514b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b7c43c8ddfc4ae2091a33f2882927bb4e3e2fee2">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_71fc40ca95ae0c2dd286184db45acf2143e115cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\c06409eb91e1eddadc389de0204c4f4f716b5c13\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9275383ea118117324857c8562cd3a8cf005ca50\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\e1827c534b4da647cafe305a6fdbcbd0f178514b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b7c43c8ddfc4ae2091a33f2882927bb4e3e2fee2">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_71fc40ca95ae0c2dd286184db45acf2143e115cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\be6183c83df5894831590091dae109432790f465\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dce3b09be94e30554913f3e3e537b3517478bfd7">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f4e2ae3bfaab844b5d4e5ac03e49f0d5f358a27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_d3465c2529e828840b04179b8a873998124643b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.2.0\cb20062e14c523637b7643295418097b48cccec2\okhttp-urlconnection-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cb20062e14c523637b7643295418097b48cccec2">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-urlconnection-2.2.0_4e9ac5045dc553cd2ab5fabaaaf2e7493da8331e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\66775989d814fa709548118f0096fe5e9a7c8869\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5bfa7dd94a9e7222b3098aa38842d51697ef3ab8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\d19beedec34b1f344cf8b1136eae6b19ff411107\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="83aa61788b6dd674d7d3460dffc74715b5de8451">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d2eaf3a788f6e93eae4cd60c5f297b8a059d82dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\libs\Pubnub-Android-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0b6f79f6110c821965294cc65e62180b8a1f85f8">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\2\Pubnub-Android-3.7.0_0b1466a3ad09ccfbe55dc8064607319555861190\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\ee692c18ee67f6e2cb3aaa24298c0c8e5661f5b7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="71199ae2bce8d5b5ddf0b463a72ea846aa637274">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3be4b32e9ba6f41edfbf51ef4bb310e40e02b4ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\638d87f89be95529172322734bc0c83880826704\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e64a4cef4eefb0290e69198eeefde419c1bd642c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\339090ace880650e089adab2f64cb462752b3c18\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_562cb78e47fd6a0c7d619869f35e9475fa568dc7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.2.0\959c454243581fdf730abfd4f4745441724bcf2c\okhttp-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.2.0_78b9769aeaa72572454eae061da26e6c499ecf4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_b915e8ce3bd5707ae65129ebda876e4f1a713584\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.gradle\caches\modules-2\files-2.1\com.jakewharton\disklrucache\2.0.2\93b399470e72c0bc8cb52379943b63c9aa586cd8\disklrucache-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="93b399470e72c0bc8cb52379943b63c9aa586cd8">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\disklrucache-2.0.2_2b98e51faee68d9dc7a7ffbf759747cab5084a4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\553a8efd55d3e2b3eaa2472472e83dd64638e107\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c1c3ef9141489e7cedde64f5b9d800aefd2a121c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\6a2dd9a11edaddc19efbf2022b22a98e757d468d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3f16e74358c80b2705db7c817ff1e37f0155cc81">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_675c894a1127dda781a30056340064e0462500b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\d249ed875ef151aae94f4f1a8832924cd403ba3a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9f4ad6c07c80cd3938403df8ce894ae4341329c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\5e6a9d2ed2bf63f68aea90a146caaaba73017b9f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b9b286232eeb2db0d6b461864087d0870925d16c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.2.0\c0b52915a48fa91b1b94a28d4a2997bac5f524df\okio-1.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.2.0_0d8d0de591148a6a4217c54d3b4b9e6d12e042d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_0e1dd75b7d587d6b69dec05f0a2fe35a99af5dc1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\853aabb3d750fb0f8920db643be835e3f92bef42\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6df745d397ccfd35696256b1a8dda6fb54f606a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-android-1.1.4_75a39dcda536f691c9ceb8a27cce766e6ef7dac9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\158bab35ace04c8a3506becfb9ff825ca9f6388c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="89ba8466f3e32427af7aa725eb7be31a15c78a77">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_94126f548b2d0e8e774f2c44da6ae59c1a7ba78d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\af593852820e84b9433c2be420b86e07e49a0db5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b4ba2534e35a059dc41f65e4200fc0afeb408a03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\406b4ca49d004d4e077debc5e7a518d283fea1d1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c733e9d1b065d940a08f2fca0ff920dfc08d94cc">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dd2bd3dc3f25c15095de2e093274fabda8b84711\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\d9bbeca305b9741b0f630be7841e17adbf8a5418\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_33f8deebd47e8bdb7ceb102ff95d48c1a7a70d81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\3a21b5e6a5d4e799477361813a45cb6edb6ee0ce\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7a48e73f63beeba6f6bb73273877538b084aa9a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\f2b35388f3fb31b287da907bef2a0ac1cf0af015\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dfe08994c8659159a71ef606992bf2ea3a7aa254\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\419c097ee6b3f5069ecf7ee289f840d4c9dedd80\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_db8b50aaecb765b4f4b6750a178170216d088f03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\dd104c5b743560e201faef955461733d82f39945\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2ad8597f035f882922048908850e725dc95f9add">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ce98b83abfc9acc4a95a2598a9725ec827bfa3e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_98f110845b74819ce455ac7099007a1ba3c288e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\d20e4063b371b4a4c10a79694c757c5c84fbe95a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2c12397a785c3b1868fbebeffc9553457b27803f">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0664378e4e11fdda0cc9e1c20a004ef96ebc8370\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_d3465c2529e828840b04179b8a873998124643b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\c06409eb91e1eddadc389de0204c4f4f716b5c13\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9275383ea118117324857c8562cd3a8cf005ca50\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\386406566ef063d331bc67703af5588b0e3090f0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9c611a83b7b08e703f889d68e31eda9e1d297e5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_b915e8ce3bd5707ae65129ebda876e4f1a713584\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\2828ff97035eb6f331e1fec3feab4c93157fcd33\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7501f67ab96bc41a7ea419af6bd25050ad99d9a3">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_479f78bd75c6531e17d3e9a699fe2e304e7aa6fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\libs\Pubnub-Android-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0b6f79f6110c821965294cc65e62180b8a1f85f8">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\2\Pubnub-Android-3.7.0_0b1466a3ad09ccfbe55dc8064607319555861190\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\libs\bcprov-jdk15on-1.47.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b6f5d9926b0afbde9f4dbe3db88c5247be7794bb">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\2\bcprov-jdk15on-1.47_9febd58006255d6000c87603135265e4d95c1b71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\d19beedec34b1f344cf8b1136eae6b19ff411107\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="83aa61788b6dd674d7d3460dffc74715b5de8451">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d2eaf3a788f6e93eae4cd60c5f297b8a059d82dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.2.0\cb20062e14c523637b7643295418097b48cccec2\okhttp-urlconnection-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cb20062e14c523637b7643295418097b48cccec2">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-urlconnection-2.2.0_4e9ac5045dc553cd2ab5fabaaaf2e7493da8331e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\cb3932fc948a02e52a313dca3f37de3ed4aaa494\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aff7e95ff68367cce8c7ac1fd8a7c6fc20f9e6d3">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_75aa4aba6578a5543debe1272f9a69bfe3bc2b09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\ee692c18ee67f6e2cb3aaa24298c0c8e5661f5b7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="71199ae2bce8d5b5ddf0b463a72ea846aa637274">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3be4b32e9ba6f41edfbf51ef4bb310e40e02b4ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\6a2dd9a11edaddc19efbf2022b22a98e757d468d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3f16e74358c80b2705db7c817ff1e37f0155cc81">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_675c894a1127dda781a30056340064e0462500b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.2.0\959c454243581fdf730abfd4f4745441724bcf2c\okhttp-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.2.0_78b9769aeaa72572454eae061da26e6c499ecf4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\158bab35ace04c8a3506becfb9ff825ca9f6388c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="89ba8466f3e32427af7aa725eb7be31a15c78a77">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_94126f548b2d0e8e774f2c44da6ae59c1a7ba78d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\be6183c83df5894831590091dae109432790f465\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dce3b09be94e30554913f3e3e537b3517478bfd7">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f4e2ae3bfaab844b5d4e5ac03e49f0d5f358a27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\08ce931454cc563c3aa19a2f60bb7e8791b2bbc5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_df85fd5521796704c912e723187831bf7d5cd20e\classes.dex" />
+    </item>
+
+</items>
