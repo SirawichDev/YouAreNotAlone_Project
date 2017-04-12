@@ -8,12 +8,12 @@ import butterknife.ButterKnife.ViewBinder;
 public class Teleinput$$ViewBinder<T extends com.Sirawit.Projectx.Teleinput> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131624116, "field '_passwordText'");
-    target._passwordText = finder.castView(view, 2131624116, "field '_passwordText'");
-    view = finder.findRequiredView(source, 2131624113, "field '_loginButton'");
-    target._loginButton = finder.castView(view, 2131624113, "field '_loginButton'");
-    view = finder.findRequiredView(source, 2131624114, "field '_Cir'");
-    target._Cir = finder.castView(view, 2131624114, "field '_Cir'");
+    view = finder.findRequiredView(source, 2131624112, "field '_passwordText'");
+    target._passwordText = finder.castView(view, 2131624112, "field '_passwordText'");
+    view = finder.findRequiredView(source, 2131624109, "field '_loginButton'");
+    target._loginButton = finder.castView(view, 2131624109, "field '_loginButton'");
+    view = finder.findRequiredView(source, 2131624110, "field '_Cir'");
+    target._Cir = finder.castView(view, 2131624110, "field '_Cir'");
   }
 
   @Override public void unbind(T target) {
