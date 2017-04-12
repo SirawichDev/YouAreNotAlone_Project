@@ -18,8 +18,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mxn.soul.flowingdrawer_core.ElasticDrawer;
-import com.mxn.soul.flowingdrawer_core.FlowingDrawer;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -29,13 +27,15 @@ public class Teleinput extends AppCompatActivity {
     private Toolbar toolbar;
     private ActionBarDrawerToggle drawerToggle;
     private NavigationView nvDrawer;
-    private static final String TAG = "LoginActivity";
+    private static final String TAG = "TelePhone Input";
     private static final int REQUEST_SIGNUP = 0;
     private String passwords;
     @Bind(R.id.enter)
     EditText _passwordText;
     @Bind(R.id.enterphone)
     Button _loginButton;
+    @Bind(R.id.circularButton1)
+    Button _Cir;
 
 
     @Override
@@ -44,7 +44,12 @@ public class Teleinput extends AppCompatActivity {
         setContentView(R.layout.activity_teleinput);
         ButterKnife.bind(this);
 
-
+        _Cir.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                loginx();
+            }
+        });
         _loginButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -52,6 +57,8 @@ public class Teleinput extends AppCompatActivity {
                 login();
             }
         });
+
+
 
     }
 
@@ -65,11 +72,11 @@ public class Teleinput extends AppCompatActivity {
 
         _loginButton.setEnabled(false);
 
-        final ProgressDialog progressDialog = new ProgressDialog(Teleinput.this,
+         final ProgressDialog progressDialogs = new ProgressDialog(Teleinput.this,
                 R.style.AppTheme_Dark_Dialog);
-        progressDialog.setIndeterminate(true);
-        progressDialog.setMessage("Generating Channel...");
-        progressDialog.show();
+        progressDialogs.setIndeterminate(true);
+        progressDialogs.setMessage("Generating Channel...");
+        progressDialogs.show();
 
          passwords = _passwordText.getText().toString();
 
@@ -81,7 +88,37 @@ public class Teleinput extends AppCompatActivity {
                         // On complete call either onLoginSuccess or onLoginFailed
                         onLoginSuccess();
                         // onLoginFailed();
-                        progressDialog.dismiss();
+                        progressDialogs.dismiss();
+                    }
+                }, 3000);
+    }
+    public void loginx() {
+        Log.d(TAG, "Login");
+
+        if (!validate()) {
+            onLoginFailedx();
+            return;
+        }
+
+        _Cir.setEnabled(false);
+
+         final ProgressDialog progressDialogxx = new ProgressDialog(Teleinput.this,
+                R.style.AppTheme_Dark_Dialog);
+        progressDialogxx.setIndeterminate(true);
+        progressDialogxx.setMessage("Checking Contract List..");
+        progressDialogxx.show();
+
+
+        passwords = _passwordText.getText().toString();
+        // TODO: Implement your own authentication logic here.
+
+        new android.os.Handler().postDelayed(
+                new Runnable() {
+                    public void run() {
+                        // On complete call either onLoginSuccess or onLoginFailed
+                        getcontractlist();
+                        // onLoginFailed();
+                        progressDialogxx.dismiss();
                     }
                 }, 3000);
     }
@@ -91,6 +128,15 @@ public class Teleinput extends AppCompatActivity {
         // Disable going back to the MainActivity
         moveTaskToBack(true);
     }
+    public void getcontractlist(){
+        _Cir.setEnabled(true);
+        Intent newAc = new Intent(Teleinput.this,CiontractList.class);
+        newAc.putExtra("Phonex",passwords);
+        startActivity(newAc);
+        finish();
+    }
+
+
 
     public void onLoginSuccess() {
         _loginButton.setEnabled(true);
@@ -105,6 +151,13 @@ public class Teleinput extends AppCompatActivity {
         Toast.makeText(getBaseContext(), "Login failed", Toast.LENGTH_LONG).show();
 
         _loginButton.setEnabled(true);
+
+    }
+    public void onLoginFailedx() {
+        Toast.makeText(getBaseContext(), "Login failed", Toast.LENGTH_LONG).show();
+
+
+        _Cir.setEnabled(true);
     }
 
     public boolean validate() {

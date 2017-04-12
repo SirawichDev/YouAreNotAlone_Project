@@ -532,5 +532,14 @@
         sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
         <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_df85fd5521796704c912e723187831bf7d5cd20e\classes.dex" />
     </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\1837e4a6be92f3b03236114fc8af541653e9b8ba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8a6ed980c74ad35b2dfc4e1daf97bfc0eea5d7c9">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_da1f18a40c6b3855f469dbb7f4430b244b578627\classes.dex" />
+    </item>
 
 </items>

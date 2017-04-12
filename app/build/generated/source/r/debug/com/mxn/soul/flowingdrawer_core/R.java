@@ -8,15 +8,15 @@ package com.mxn.soul.flowingdrawer_core;
 
 public final class R {
     public static final class attr {
-        public static final int edMaxAnimationDuration = 0x7f010100;
-        public static final int edMenuBackground = 0x7f0100fd;
-        public static final int edMenuSize = 0x7f0100fe;
-        public static final int edPosition = 0x7f010101;
-        public static final int edTouchBezelSize = 0x7f0100ff;
+        public static final int edMaxAnimationDuration = 0x7f01010e;
+        public static final int edMenuBackground = 0x7f01010b;
+        public static final int edMenuSize = 0x7f01010c;
+        public static final int edPosition = 0x7f01010f;
+        public static final int edTouchBezelSize = 0x7f01010d;
         public static final int elasticDrawerStyle = 0x7f010002;
     }
     public static final class styleable {
-        public static final int[] ElasticDrawer = { 0x7f0100fd, 0x7f0100fe, 0x7f0100ff, 0x7f010100, 0x7f010101 };
+        public static final int[] ElasticDrawer = { 0x7f01010b, 0x7f01010c, 0x7f01010d, 0x7f01010e, 0x7f01010f };
         public static final int ElasticDrawer_edMaxAnimationDuration = 3;
         public static final int ElasticDrawer_edMenuBackground = 0;
         public static final int ElasticDrawer_edMenuSize = 1;
