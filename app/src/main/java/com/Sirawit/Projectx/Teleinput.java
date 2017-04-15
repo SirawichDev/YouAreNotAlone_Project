@@ -23,7 +23,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 public class Teleinput extends AppCompatActivity {
-   private com.mxn.soul.flowingdrawer_core.FlowingDrawer mDrawer;
+
     private Toolbar toolbar;
     private ActionBarDrawerToggle drawerToggle;
     private NavigationView nvDrawer;
@@ -130,7 +130,7 @@ public class Teleinput extends AppCompatActivity {
     }
     public void getcontractlist(){
         _Cir.setEnabled(true);
-        Intent newAc = new Intent(Teleinput.this,CiontractList.class);
+        Intent newAc = new Intent(Teleinput.this,Navchannel.class);
         newAc.putExtra("Phonex",passwords);
         startActivity(newAc);
         finish();
@@ -167,13 +167,6 @@ public class Teleinput extends AppCompatActivity {
     }
 
 
-
-
-    private void callActivity(Class<?> cls) {
-        Intent intent = new Intent(this, cls);
-        intent.putExtra("Phone", passwords);
-        startActivity(intent);
-    }
 
 }
 

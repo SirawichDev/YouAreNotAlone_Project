@@ -13,14 +13,16 @@
 
     <info.hoang8f.widget.FButton
         android:id="@+id/display"
+        android:onClick="display"
         fbutton:shadowHeight="2dp"
         fbutton:cornerRadius="20dp"
         fbutton:buttonColor="@color/fbutton_color_alizarin"
         fbutton:shadowEnabled="true"
         android:layout_width="match_parent"
         android:layout_height="73dp"
-        android:onClick="t1"
+
         android:padding="50dp"
+
         android:text="Let's Follow your Freind"
         android:textColor="@color/white"
         android:fontFamily="sans-serif-smallcaps"

@@ -38,9 +38,6 @@ public class Mode extends ActionBarActivity implements View.OnClickListener {
         final Button bon = (Button) findViewById(R.id.tomap);
         bon.setOnClickListener(this);
 
-
-
-
     }
     public void login() {
 

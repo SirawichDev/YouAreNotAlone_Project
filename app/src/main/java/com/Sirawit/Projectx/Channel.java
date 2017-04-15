@@ -53,7 +53,7 @@ public class Channel extends AppCompatActivity implements WaveSwipeRefreshLayout
         Intent intent = getIntent();
 
         Phone1 = intent.getStringExtra("Phone");
-        initView();
+
 
 
         tt.setOnClickListener(new View.OnClickListener() {
@@ -99,19 +99,15 @@ public class Channel extends AppCompatActivity implements WaveSwipeRefreshLayout
         String ss = Base64.encodeToString(encodedBytes, Base64.DEFAULT);
         ss = ss.substring(0, 5);
          TextView channelEditText = (TextView) findViewById(R.id.Chammelen);
+
         channelEditText.setText(ss);
         channelEditText.setTextSize(TypedValue.COMPLEX_UNIT_SP, 15);
+
 
                             channelName = channelEditText.getText().toString();
 
     }
-    private void initView() {
-        mWaveSwipeRefreshLayout = (WaveSwipeRefreshLayout) findViewById(R.id.main_swipe);
-        mWaveSwipeRefreshLayout.setColorSchemeColors(Color.WHITE, Color.WHITE);
-        mWaveSwipeRefreshLayout.setOnRefreshListener(this);
-        mWaveSwipeRefreshLayout.setWaveColor(Color.rgb(52, 152, 219));
 
-    }
 
 
     public void login() {

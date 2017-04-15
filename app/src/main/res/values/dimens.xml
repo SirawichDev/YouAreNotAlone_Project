@@ -34,6 +34,8 @@
     <dimen name="text_size_ultralarge">34sp</dimen>
     <dimen name="text_size_hyperlarge">72sp</dimen>
 
+
+    <dimen name="title_text_size">20dp</dimen>
     <!-- view dimensions and spacing -->
     <dimen name="toolbar_height">56dp</dimen>
     <dimen name="toolbar_container_height">96dp</dimen>

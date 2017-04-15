@@ -22,23 +22,23 @@
         fbutton:shadowEnabled="true"
         android:layout_width="match_parent"
         android:layout_height="73dp"
-        android:onClick="t1"
+
         android:padding="50dp"
         android:text="Receive Channel"
         android:textColor="@color/fbutton_color_belize_hole"
         android:fontFamily="sans-serif-smallcaps"
         android:textSize="25sp"
+        android:layout_marginBottom="26dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="26dp" />
+        android:layout_alignParentStart="true" />
 
     <info.hoang8f.widget.FButton
         android:id="@+id/circularButton1"
         android:layout_width="196dp"
         android:layout_height="64dp"
+        android:onClick="getlist"
         android:fontFamily="sans-serif-smallcaps"
-        android:onClick="t1"
         android:textSize="18sp"
         android:layout_marginTop="50dp"
         android:layout_below="@+id/materialTextField"
@@ -63,7 +63,8 @@
             android:textColorHint="#666"
             android:textSize="15sp"
             android:id="@+id/enter"
-            android:inputType="phone"
+            android:inputType="number"
+
             />
 
 

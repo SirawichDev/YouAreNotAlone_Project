@@ -34,6 +34,7 @@
     <application
         android:allowBackup="true"
         android:fontFamily="serif-monospace"
+        android:hardwareAccelerated="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
@@ -91,6 +92,19 @@
             android:theme="@style/AppTheme.Dark" />
         <activity
             android:name="com.Sirawit.Projectx.CiontractList"
+            android:theme="@style/AppTheme.Dark" />
+        >
+        <activity
+            android:name="com.Sirawit.Projectx.HorizontalNtbActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.Sirawit.Projectx.nav2"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.Sirawit.Projectx.Navshared"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.Sirawit.Projectx.Navchannel"
             android:theme="@style/AppTheme.Dark" />
     </application>
 

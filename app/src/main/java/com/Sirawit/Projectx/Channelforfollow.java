@@ -24,7 +24,7 @@ public class Channelforfollow extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_channelforfollow);
         ButterKnife.bind(this);
-        
+
         _loginButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -95,5 +95,6 @@ public class Channelforfollow extends AppCompatActivity {
 
         return valid;
     }
+
 
 }

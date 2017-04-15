@@ -9,12 +9,21 @@ import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
+import android.graphics.Rect;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.ContactsContract;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AlertDialog;
+import android.text.SpannableString;
+import android.text.style.UnderlineSpan;
+import android.util.Log;
+import android.view.Display;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -24,6 +33,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.cocoahero.android.geojson.Position;
+import com.getkeepsafe.taptargetview.TapTarget;
+import com.getkeepsafe.taptargetview.TapTargetSequence;
+import com.getkeepsafe.taptargetview.TapTargetView;
 
 
 public class CiontractList extends Activity {
@@ -51,7 +63,14 @@ public class CiontractList extends Activity {
         pDialog.show();
         mListView = (ListView) findViewById(R.id.list);
         updateBarHandler = new Handler();
+        final Display display = getWindowManager().getDefaultDisplay();
         // Since reading contacts takes more time, let's run it on a separate thread.
+
+        // Load our little droid guy
+
+        // Tell our droid buddy where we want him to appear
+
+        // Using deprecated methods makes you look way cool
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -68,7 +87,73 @@ public class CiontractList extends Activity {
 
                 ClipboardManager cm = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(Phone.get(position));
-                Toast.makeText(getApplicationContext(), "item clicked : \n" + contactList.get(position), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Copied : \n" + Phone.get(position), Toast.LENGTH_SHORT).show();
+            }
+        });
+        final TapTargetSequence sequence = new TapTargetSequence(this)
+                .targets(
+                        // This tap target will target the back button, we just need to pass its containing toolbar
+                        // Likewise, this tap target will target the search button
+
+                        // You can also target the overflow button in your toolbar
+
+                        // This tap target will target our droid buddy at the given target rect
+
+                )
+                .listener(new TapTargetSequence.Listener() {
+                    // This listener will tell us when interesting(tm) events happen in regards
+                    // to the sequence
+                    @Override
+                    public void onSequenceFinish() {
+                    }
+
+                    @Override
+                    public void onSequenceStep(TapTarget lastTarget, boolean targetClicked) {
+                        Log.d("TapTargetView", "Clicked on " + lastTarget.id());
+                    }
+
+                    @Override
+                    public void onSequenceCanceled(TapTarget lastTarget) {
+                        final AlertDialog dialog = new AlertDialog.Builder(CiontractList.this)
+                                .setTitle("Uh oh")
+                                .setMessage("You canceled the sequence")
+                                .setPositiveButton("Oops", null).show();
+                        TapTargetView.showFor(dialog,
+                                TapTarget.forView(dialog.getButton(DialogInterface.BUTTON_POSITIVE), "Uh oh!", "You canceled the sequence at step " + lastTarget.id())
+                                        .cancelable(false)
+                                        .tintTarget(false), new TapTargetView.Listener() {
+                                    @Override
+                                    public void onTargetClick(TapTargetView view) {
+                                        super.onTargetClick(view);
+                                        dialog.dismiss();
+                                    }
+                                });
+                    }
+                });
+
+        final SpannableString spannedDesc = new SpannableString("For get back into Input Your telephone number");
+        spannedDesc.setSpan(new UnderlineSpan(), spannedDesc.length() - "TapTargetView".length(), spannedDesc.length(), 0);
+        TapTargetView.showFor(this, TapTarget.forView(findViewById(R.id.fab), "Welcome to Telephone number Book ! This is Back Button!", spannedDesc)
+                .cancelable(false)
+                .drawShadow(true)
+                .titleTextDimen(R.dimen.title_text_size)
+                .tintTarget(false), new TapTargetView.Listener() {
+            @Override
+            public void onTargetClick(TapTargetView view) {
+                super.onTargetClick(view);
+                // .. which evidently starts the sequence we defined earlier
+                sequence.start();
+            }
+
+            @Override
+            public void onOuterCircleClick(TapTargetView view) {
+                super.onOuterCircleClick(view);
+                Toast.makeText(view.getContext(), "You clicked the outer circle!", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onTargetDismissed(TapTargetView view, boolean userInitiated) {
+                Log.d("TapTargetViewSample", "You dismissed me :(");
             }
         });
     }
@@ -108,7 +193,7 @@ public class CiontractList extends Activity {
                 String name = cursor.getString(cursor.getColumnIndex(DISPLAY_NAME));
                 int hasPhoneNumber = Integer.parseInt(cursor.getString(cursor.getColumnIndex(HAS_PHONE_NUMBER)));
                 if (hasPhoneNumber > 0) {
-                    output.append("\n First Name:" + name);
+                    output.append(name);
 
                     //This is to read multiple phone numbers associated with the same contact
                     Cursor phoneCursor = contentResolver.query(PhoneCONTENT_URI, null, Phone_CONTACT_ID + " = ?", new String[]{contact_id}, null);

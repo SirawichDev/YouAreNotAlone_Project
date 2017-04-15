@@ -103,7 +103,7 @@ public class LoginActivity extends ActionBarActivity {
 
     public void onLoginSuccess() {
         _loginButton.setEnabled(true);
-        Intent newActivity = new Intent(LoginActivity.this,Mode.class);
+        Intent newActivity = new Intent(LoginActivity.this,HorizontalNtbActivity.class);
         startActivity(newActivity);
         finish();
     }

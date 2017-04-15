@@ -64,6 +64,10 @@
         "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\9e34fadb986876c8f2bd826fb0171de5e6703c18\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
+        "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_navshared.xml",
+        "source": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\src\\main\\res\\layout\\activity_navshared.xml"
+    },
+    {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\9e34fadb986876c8f2bd826fb0171de5e6703c18\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
@@ -82,6 +86,10 @@
     {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_channelforfollow.xml",
         "source": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\src\\main\\res\\layout\\activity_channelforfollow.xml"
+    },
+    {
+        "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nav2.xml",
+        "source": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\src\\main\\res\\layout\\activity_nav2.xml"
     },
     {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -228,6 +236,10 @@
         "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\9e34fadb986876c8f2bd826fb0171de5e6703c18\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_horizontal_ntb.xml",
+        "source": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\src\\main\\res\\layout\\activity_horizontal_ntb.xml"
+    },
+    {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\9e34fadb986876c8f2bd826fb0171de5e6703c18\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
@@ -274,6 +286,10 @@
     {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\44870179a4da0c383dd12bd79d261bfce71fe08f\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_navchannel.xml",
+        "source": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\src\\main\\res\\layout\\activity_navchannel.xml"
     },
     {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
