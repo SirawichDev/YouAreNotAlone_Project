@@ -17,7 +17,7 @@
         android:id="@+id/tofap"
         fbutton:shadowHeight="2dp"
         fbutton:cornerRadius="20dp"
-        android:onClick="followLocation"
+
         fbutton:buttonColor="@color/fbutton_color_alizarin"
         fbutton:shadowEnabled="true"
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
         android:id="@+id/tomap"
         fbutton:shadowHeight="2dp"
         fbutton:cornerRadius="20dp"
-        android:onClick="shareLocations"
+
         fbutton:buttonColor="@color/white"
         fbutton:shadowEnabled="true"
         android:layout_width="match_parent"

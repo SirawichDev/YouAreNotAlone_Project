@@ -104,6 +104,10 @@
         "source": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\src\\main\\res\\layout\\activity_mbox_view.xml"
     },
     {
+        "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_aboutme.xml",
+        "source": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\src\\main\\res\\layout\\activity_aboutme.xml"
+    },
+    {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\9e34fadb986876c8f2bd826fb0171de5e6703c18\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
@@ -152,12 +156,24 @@
         "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\9e34fadb986876c8f2bd826fb0171de5e6703c18\\output\\res\\layout\\abc_search_view.xml"
     },
     {
+        "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\flipper.xml",
+        "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\ff88b4f887bc1159faf6393a6ec802909dda7ee5\\output\\res\\layout\\flipper.xml"
+    },
+    {
+        "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_text_round_corner_progress_bar.xml",
+        "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\241d5b692062033a57ea0f338142889c2f069872\\output\\res\\layout\\layout_text_round_corner_progress_bar.xml"
+    },
+    {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\44870179a4da0c383dd12bd79d261bfce71fe08f\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\9e34fadb986876c8f2bd826fb0171de5e6703c18\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_round_corner_progress_bar.xml",
+        "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\241d5b692062033a57ea0f338142889c2f069872\\output\\res\\layout\\layout_round_corner_progress_bar.xml"
     },
     {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
@@ -198,6 +214,10 @@
     {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\9e34fadb986876c8f2bd826fb0171de5e6703c18\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_icon_round_corner_progress_bar.xml",
+        "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\241d5b692062033a57ea0f338142889c2f069872\\output\\res\\layout\\layout_icon_round_corner_progress_bar.xml"
     },
     {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mtf_layout.xml",

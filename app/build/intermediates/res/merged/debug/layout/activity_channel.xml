@@ -32,26 +32,7 @@
             android:textSize="15sp" />
 
     </com.github.florent37.materialtextfield.MaterialTextField>
-    <com.github.florent37.materialtextfield.MaterialTextField
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        app:mtf_image="@drawable/ic_fourth"
-        android:id="@+id/xx"
-        android:layout_below="@+id/materialTextField3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
 
-        <EditText
-            android:inputType="textNoSuggestions"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Your Channel is"
-            android:textColor="#333"
-            android:textColorHint="#666"
-            android:textSize="15sp"
-            android:id="@+id/test"/>
-
-    </com.github.florent37.materialtextfield.MaterialTextField>
 
     <info.hoang8f.widget.FButton
         android:id="@+id/enterchannel"
@@ -61,7 +42,7 @@
         fbutton:shadowEnabled="true"
         android:layout_width="match_parent"
         android:layout_height="73dp"
-android:onClick="getchannel"
+
 android:padding="50dp"
         android:text="Let's Share Location"
         android:textColor="@color/fbutton_color_belize_hole"

@@ -71,7 +71,7 @@ public class GMapsShareLocationActivity extends ActionBarActivity implements
         Intent intent = getIntent();
         Phonenumber = intent.getStringExtra("Phone");
         channelName = intent.getExtras().getString("channel");
-
+        Log.d(TAG, "Passed Channel"+ channelName);
         // Start Google Client
         this.buildGoogleApiClient();
 
@@ -79,9 +79,7 @@ public class GMapsShareLocationActivity extends ActionBarActivity implements
         MapFragment mapFragment = (MapFragment) getFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayShowHomeEnabled(true);
-        actionBar.setDisplayShowTitleEnabled(false);
+
 
         // Start PubNub
         mPubnub = PubNubManager.startPubnub();

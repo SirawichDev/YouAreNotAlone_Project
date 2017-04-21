@@ -8,8 +8,8 @@ import butterknife.ButterKnife.ViewBinder;
 public class LoginActivity$$ViewBinder<T extends com.Sirawit.Projectx.LoginActivity> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131624102, "field '_loginButton'");
-    target._loginButton = finder.castView(view, 2131624102, "field '_loginButton'");
+    view = finder.findRequiredView(source, 2131624101, "field '_loginButton'");
+    target._loginButton = finder.castView(view, 2131624101, "field '_loginButton'");
   }
 
   @Override public void unbind(T target) {

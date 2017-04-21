@@ -33,7 +33,7 @@ public class GMapsFollowLocationActivity extends ActionBarActivity implements
     private static final String TAG = "Tracker - GMaps Follow";
     private static final String PUBNUB_TAG = "PUBNUB";
     private boolean isFirstMessage = true;
-    private boolean mRequestingLocationUpdates = true;
+    private boolean mRequestingLocationUpdates = false;
     private MenuItem mFollowButton;
 
     // Google Maps
@@ -66,11 +66,15 @@ public class GMapsFollowLocationActivity extends ActionBarActivity implements
         MapFragment mapFragment = (MapFragment) getFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayShowHomeEnabled(true);
-        actionBar.setDisplayShowTitleEnabled(false);
+
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.follow, menu);
+        mFollowButton = menu.findItem(R.id.follow_locations);
+        return true;
+    }
 
     // =========================================================================
     // Map CallBacks
@@ -88,7 +92,26 @@ public class GMapsFollowLocationActivity extends ActionBarActivity implements
     // Button CallBacks
     // =========================================================================
 
-
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle presses on the action bar items
+        switch (item.getItemId()) {
+            case R.id.follow_locations:
+                Log.d(TAG, "'Follow Friend's Location' Button Pressed");
+                mRequestingLocationUpdates = !mRequestingLocationUpdates;
+                if (mRequestingLocationUpdates) {
+                    startFollowingLocation();
+                    mFollowButton.setTitle("Stop Viewing Your Friend's Location");
+                }
+                if (!mRequestingLocationUpdates) {
+                    stopFollowingLocation();
+                    mFollowButton.setTitle("Start Viewing Your Friend's Location");
+                }
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
     private void startFollowingLocation() {
         initializePolyline();

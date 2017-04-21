@@ -8,8 +8,8 @@ import butterknife.ButterKnife.ViewBinder;
 public class Channel$$ViewBinder<T extends com.Sirawit.Projectx.Channel> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131624091, "field 'tt'");
-    target.tt = finder.castView(view, 2131624091, "field 'tt'");
+    view = finder.findRequiredView(source, 2131624093, "field 'tt'");
+    target.tt = finder.castView(view, 2131624093, "field 'tt'");
   }
 
   @Override public void unbind(T target) {

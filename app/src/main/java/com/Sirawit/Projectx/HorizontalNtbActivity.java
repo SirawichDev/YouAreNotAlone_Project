@@ -59,12 +59,30 @@ public class HorizontalNtbActivity extends Activity {
                 if (position == 0) {
                     final View view = LayoutInflater.from(
                             getBaseContext()).inflate(R.layout.activity_mode, null, false);
+                    Button Butfollow = (Button)view.findViewById(R.id.tofap);
+                    Butfollow.setOnClickListener(new View.OnClickListener(){
+
+                        @Override
+                        public void onClick(View v) {
+                            Intent intent = new Intent(HorizontalNtbActivity.this, nav2.class);
+                            startActivity(intent);
+                        }
+                    });
+                    Button ButShared = (Button)view.findViewById(R.id.tomap);
+                    ButShared.setOnClickListener(new View.OnClickListener(){
+                        @Override
+                        public void onClick(View v){
+                            Intent intent = new Intent(HorizontalNtbActivity.this, Navshared.class);
+                            startActivity(intent);
+                        }
+                    });
                     container.addView(view);
                     return view;
                 }
                 else {
                     final View view = LayoutInflater.from(
                             getBaseContext()).inflate(R.layout.activity_login, null, false);
+
                     container.addView(view);
                     return view;
                 }
@@ -78,38 +96,38 @@ public class HorizontalNtbActivity extends Activity {
         final ArrayList<NavigationTabBar.Model> models = new ArrayList<>();
         models.add(
                 new NavigationTabBar.Model.Builder(
-                        getResources().getDrawable(R.drawable.ic_first),
+                        getResources().getDrawable(R.drawable.ff),
                         Color.parseColor(colors[0]))
-                        .selectedIcon(getResources().getDrawable(R.drawable.ic_sixth))
+                        .selectedIcon(getResources().getDrawable(R.drawable.ff1))
                         .title("Mode")
-                        .badgeTitle("1")
+                        .badgeTitle("^_^")
                         .build()
         );
         models.add(
                 new NavigationTabBar.Model.Builder(
-                        getResources().getDrawable(R.drawable.ic_second),
+                        getResources().getDrawable(R.drawable.in2),
                         Color.parseColor(colors[1]))
-//                        .selectedIcon(getResources().getDrawable(R.drawable.ic_eighth))
-                        .title("Input")
-                        .badgeTitle("2")
+                        .selectedIcon(getResources().getDrawable(R.drawable.in))
+                        .title("Phone Number")
+                        .badgeTitle("Shared")
                         .build()
         );
         models.add(
                 new NavigationTabBar.Model.Builder(
-                        getResources().getDrawable(R.drawable.ic_third),
+                        getResources().getDrawable(R.drawable.ic_seventh),
                         Color.parseColor(colors[2]))
-                        .selectedIcon(getResources().getDrawable(R.drawable.ic_seventh))
+                        //    .selectedIcon(getResources().getDrawable(R.drawable.cha))
                         .title("Channel")
-                        .badgeTitle("3")
+                        .badgeTitle("Shared")
                         .build()
         );
         models.add(
                 new NavigationTabBar.Model.Builder(
-                        getResources().getDrawable(R.drawable.ic_fourth),
+                        getResources().getDrawable(R.drawable.im),
                         Color.parseColor(colors[3]))
-//                        .selectedIcon(getResources().getDrawable(R.drawable.ic_eighth))
-                        .title("Map")
-                        .badgeTitle("show")
+                        //.selectedIcon(getResources().getDrawable(R.drawable.opp))
+                        .title("Channel")
+                        .badgeTitle("Follower")
                         .build()
         );
         models.add(
@@ -247,12 +265,4 @@ public class HorizontalNtbActivity extends Activity {
         return valid;
     }
 
-    public void followLocation(View view){
-        Intent i = new Intent(HorizontalNtbActivity.this, nav2.class);
-        startActivity(i);
-    }
-    public void shareLocations(View view){
-        Intent i = new Intent(HorizontalNtbActivity.this,Navshared.class);
-        startActivity(i);
-    }
 }

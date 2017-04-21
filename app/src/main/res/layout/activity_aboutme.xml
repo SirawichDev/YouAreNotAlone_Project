@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/scroll_bar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fbutton_color_clouds"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    tools:context=".Aboutme">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp">
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@drawable/direction_arrow"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="MY SKILL :3"
+            android:textColor="@color/fbutton_color_carrot"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/fbutton_color_asbestos"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.akexorcist.roundcornerprogressbar.TextRoundCornerProgressBar
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                app:rcBackgroundColor="@color/fbutton_color_peter_river"
+                app:rcBackgroundPadding="10dp"
+                app:rcMax="80"
+                app:rcProgress="50"
+                app:rcProgressColor="@color/fbutton_color_concrete"
+                app:rcRadius="30dp"
+
+                app:rcSecondaryProgressColor="@color/fbutton_color_sun_flower"
+                app:rcTextProgress="JAVA"
+                app:rcTextProgressColor="@color/fbutton_color_belize_hole"
+                app:rcTextProgressMargin="20dp"
+                app:rcTextProgressSize="15sp" />
+            <com.akexorcist.roundcornerprogressbar.TextRoundCornerProgressBar
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                app:rcBackgroundColor="@color/fbutton_color_belize_hole"
+                app:rcBackgroundPadding="10dp"
+                app:rcMax="80"
+                app:rcProgress="40"
+                app:rcProgressColor="@color/fbutton_color_carrot"
+                app:rcRadius="30dp"
+
+                app:rcSecondaryProgressColor="@color/wallet_dim_foreground_inverse_disabled_holo_dark"
+                app:rcTextProgress="TEST"
+                app:rcTextProgressColor="@color/fbutton_default_color"
+                app:rcTextProgressMargin="10dp"
+                app:rcTextProgressSize="14sp" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/fbutton_color_transparent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.akexorcist.roundcornerprogressbar.TextRoundCornerProgressBar
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                app:rcBackgroundColor="@color/wallet_bright_foreground_disabled_holo_light"
+                app:rcBackgroundPadding="5dp"
+                app:rcMax="65535"
+                app:rcProgress="12890.70"
+                app:rcProgressColor="@color/wallet_hint_foreground_holo_light"
+                app:rcRadius="10dp"
+                app:rcTextProgress="TEST2"
+                app:rcTextProgressColor="@color/fbutton_default_shadow_color"
+                app:rcTextProgressMargin="10dp"
+                app:rcTextProgressSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="MIEW"
+                android:textColor="@color/common_signin_btn_light_text_disabled"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/common_action_bar_splitter"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.akexorcist.roundcornerprogressbar.TextRoundCornerProgressBar
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                app:rcBackgroundColor="@color/primary_darker"
+                app:rcBackgroundPadding="0dp"
+                app:rcMax="17"
+                app:rcProgress="8"
+                app:rcProgressColor="@color/cpb_error_state_selector"
+                app:rcRadius="2dp"
+                app:rcReverse="true"
+                app:rcTextProgress="foo"
+                app:rcTextProgressColor="@color/cpb_green_dark"
+                app:rcTextProgressMargin="5dp"
+                app:rcTextProgressSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="xx"
+                android:textColor="@color/cpb_green"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="www"
+            android:textColor="@color/fbutton_color_green_sea"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/cpb_grey"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.akexorcist.roundcornerprogressbar.IconRoundCornerProgressBar
+                android:id="@+id/progress_one"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                app:rcIconSize="30dp"
+                app:rcMax="10"
+                app:rcProgress="5" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_progress_one_decrease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="deee"
+                    android:textColor="@color/wallet_highlighted_text_holo_dark"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_progress_one"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="rrr"
+                    android:textColor="@color/fbutton_color_green_sea"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>

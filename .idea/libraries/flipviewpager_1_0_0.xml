@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="flipviewpager-1.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/ff88b4f887bc1159faf6393a6ec802909dda7ee5/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/ff88b4f887bc1159faf6393a6ec802909dda7ee5/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yalantis/flipviewpager/1.0.0/98ade0f5e8a38ec2bcadd25330b0bd12a6c8d32/flipviewpager-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

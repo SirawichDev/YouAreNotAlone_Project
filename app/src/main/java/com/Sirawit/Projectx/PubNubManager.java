@@ -1,5 +1,4 @@
 package com.Sirawit.Projectx;
-
 import android.util.Log;
 
 import com.pubnub.api.Callback;
@@ -16,7 +15,7 @@ public class PubNubManager {
 
     public static Pubnub startPubnub() {
         Log.d(TAG, "Initializing PubNub");
-        return new Pubnub("demo", "demo");
+        return new Pubnub("pub-c-b42a7830-d147-41b8-81ec-09996608174d", "sub-c-5eae343e-2293-11e7-bc52-02ee2ddab7fe");
     }
 
     public static void subscribe(Pubnub mPubnub, String channelName, Callback subscribeCallback) {

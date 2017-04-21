@@ -26,12 +26,12 @@ public final class R {
     public static final class color {
         public static final int cpb_blue = 0x7f0c0021;
         public static final int cpb_blue_dark = 0x7f0c0022;
-        public static final int cpb_complete_state_selector = 0x7f0c00a6;
-        public static final int cpb_error_state_selector = 0x7f0c00a7;
+        public static final int cpb_complete_state_selector = 0x7f0c00a9;
+        public static final int cpb_error_state_selector = 0x7f0c00aa;
         public static final int cpb_green = 0x7f0c0023;
         public static final int cpb_green_dark = 0x7f0c0024;
         public static final int cpb_grey = 0x7f0c0025;
-        public static final int cpb_idle_state_selector = 0x7f0c00a8;
+        public static final int cpb_idle_state_selector = 0x7f0c00ab;
         public static final int cpb_red = 0x7f0c0026;
         public static final int cpb_red_dark = 0x7f0c0027;
         public static final int cpb_white = 0x7f0c0028;
@@ -40,7 +40,7 @@ public final class R {
         public static final int cpb_stroke_width = 0x7f08005f;
     }
     public static final class drawable {
-        public static final int cpb_background = 0x7f020070;
+        public static final int cpb_background = 0x7f020071;
     }
     public static final class string {
         public static final int define_circularprogressbutton = 0x7f07004c;

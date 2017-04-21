@@ -17,13 +17,14 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import butterknife.OnClick;
 import devlight.io.library.ntb.NavigationTabBar;
 
 
 public class nav2 extends AppCompatActivity {
-String password;
+public String password;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nav2);
         initUI();
@@ -32,12 +33,12 @@ String password;
 
     }
 
-    private void initUI() {
+    public void initUI() {
         final ViewPager viewPager = (ViewPager) findViewById(R.id.vp_horizontal_ntb);
         viewPager.setAdapter(new PagerAdapter() {
             @Override
             public int getCount() {
-                return 2;
+                return 5;
             }
 
             @Override
@@ -52,20 +53,55 @@ String password;
 
             @Override
             public Object instantiateItem(ViewGroup container, int position) {
-                if (position == 0) {
-                    final View view = LayoutInflater.from(
-                            getBaseContext()).inflate(R.layout.activity_mode, null, false);
-                    container.addView(view);
-                    return view;
-                }
-                else {
+
+                if (position == 3) {
                     final View view = LayoutInflater.from(
                             getBaseContext()).inflate(R.layout.activity_channelforfollow, null, false);
+
+                    final EditText txtPages = (EditText) view.findViewById(R.id.simpleEditText);
+                    final Button displays = (Button) view.findViewById(R.id.display);
+                    displays.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            password = txtPages.getText().toString();
+                            Intent intent = new Intent(nav2.this, GMapsFollowLocationActivity.class);
+                            intent.putExtra("channel", password);
+                            startActivity(intent);
+                        }
+
+                    });
                     container.addView(view);
-                    final EditText txtPage = (EditText) view.findViewById(R.id.simpleEditText);
-                    password = txtPage.getText().toString();
+                    return view;
+                }  if(position == 2) {
+                    final View view = LayoutInflater.from(
+                            getBaseContext()).inflate(R.layout.activity_mode, null, false);
+                    Button Butfollow = (Button)view.findViewById(R.id.tofap);
+                    Butfollow.setOnClickListener(new View.OnClickListener(){
+
+                        @Override
+                        public void onClick(View v) {
+                            Intent intent = new Intent(nav2.this, nav2.class);
+                            startActivity(intent);
+                        }
+                    });
+                    Button ButShared = (Button)view.findViewById(R.id.tomap);
+                    ButShared.setOnClickListener(new View.OnClickListener(){
+                        @Override
+                        public void onClick(View v){
+                            Intent intent = new Intent(nav2.this, Navshared.class);
+                            startActivity(intent);
+                        }
+                    });
+                    container.addView(view);
                     return view;
                 }
+                if(position == 4){
+                    final View view = LayoutInflater.from(
+                            getBaseContext()).inflate(R.layout.activity_aboutme, null, false);
+                    container.addView(view);
+                    return view;
+                }
+      return null;
             }
 
         });
@@ -76,38 +112,38 @@ String password;
         final ArrayList<NavigationTabBar.Model> models = new ArrayList<>();
         models.add(
                 new NavigationTabBar.Model.Builder(
-                        getResources().getDrawable(R.drawable.ic_first),
+                        getResources().getDrawable(R.drawable.ff),
                         Color.parseColor(colors[0]))
-                        .selectedIcon(getResources().getDrawable(R.drawable.ic_sixth))
+                        .selectedIcon(getResources().getDrawable(R.drawable.ff1))
                         .title("Mode")
-                        .badgeTitle("1")
+                        .badgeTitle("^_^")
                         .build()
         );
         models.add(
                 new NavigationTabBar.Model.Builder(
-                        getResources().getDrawable(R.drawable.ic_second),
+                        getResources().getDrawable(R.drawable.in2),
                         Color.parseColor(colors[1]))
-//                        .selectedIcon(getResources().getDrawable(R.drawable.ic_eighth))
-                        .title("input")
-                        .badgeTitle("Channel")
+                        .selectedIcon(getResources().getDrawable(R.drawable.in))
+                        .title("Phone Number")
+                        .badgeTitle("Shared")
                         .build()
         );
         models.add(
                 new NavigationTabBar.Model.Builder(
-                        getResources().getDrawable(R.drawable.ic_third),
+                        getResources().getDrawable(R.drawable.ic_seventh),
                         Color.parseColor(colors[2]))
-                        .selectedIcon(getResources().getDrawable(R.drawable.ic_seventh))
-                        .title("Map")
-                        .badgeTitle("show")
+                        //    .selectedIcon(getResources().getDrawable(R.drawable.cha))
+                        .title("Channel")
+                        .badgeTitle("Shared")
                         .build()
         );
         models.add(
                 new NavigationTabBar.Model.Builder(
-                        getResources().getDrawable(R.drawable.ic_fourth),
+                        getResources().getDrawable(R.drawable.im),
                         Color.parseColor(colors[3]))
-//                        .selectedIcon(getResources().getDrawable(R.drawable.ic_eighth))
-                        .title("Flag")
-                        .badgeTitle("icon")
+                        //.selectedIcon(getResources().getDrawable(R.drawable.opp))
+                        .title("Channel")
+                        .badgeTitle("Follower")
                         .build()
         );
         models.add(
@@ -115,13 +151,13 @@ String password;
                         getResources().getDrawable(R.drawable.ic_fifth),
                         Color.parseColor(colors[4]))
                         .selectedIcon(getResources().getDrawable(R.drawable.ic_eighth))
-                        .title("Medal")
-                        .badgeTitle("777")
+                        .title("About")
+                        .badgeTitle("Me")
                         .build()
         );
 
         navigationTabBar.setModels(models);
-        navigationTabBar.setViewPager(viewPager, 1);
+        navigationTabBar.setViewPager(viewPager, 3);
         navigationTabBar.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(final int position, final float positionOffset, final int positionOffsetPixels) {
@@ -154,13 +190,5 @@ String password;
             }
         }, 500);
     }
-    public void display(View view){
-        Intent intent = new Intent(nav2.this, GMapsFollowLocationActivity.class);
-        intent.putExtra("channel",password);
-        startActivity(intent);
-    }
-    public void followLocation(View view){
-        Intent i = new Intent(nav2.this, nav2.class);
-        startActivity(i);
-    }
+
 }

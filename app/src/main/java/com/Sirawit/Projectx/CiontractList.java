@@ -90,72 +90,8 @@ public class CiontractList extends Activity {
                 Toast.makeText(getApplicationContext(), "Copied : \n" + Phone.get(position), Toast.LENGTH_SHORT).show();
             }
         });
-        final TapTargetSequence sequence = new TapTargetSequence(this)
-                .targets(
-                        // This tap target will target the back button, we just need to pass its containing toolbar
-                        // Likewise, this tap target will target the search button
 
-                        // You can also target the overflow button in your toolbar
 
-                        // This tap target will target our droid buddy at the given target rect
-
-                )
-                .listener(new TapTargetSequence.Listener() {
-                    // This listener will tell us when interesting(tm) events happen in regards
-                    // to the sequence
-                    @Override
-                    public void onSequenceFinish() {
-                    }
-
-                    @Override
-                    public void onSequenceStep(TapTarget lastTarget, boolean targetClicked) {
-                        Log.d("TapTargetView", "Clicked on " + lastTarget.id());
-                    }
-
-                    @Override
-                    public void onSequenceCanceled(TapTarget lastTarget) {
-                        final AlertDialog dialog = new AlertDialog.Builder(CiontractList.this)
-                                .setTitle("Uh oh")
-                                .setMessage("You canceled the sequence")
-                                .setPositiveButton("Oops", null).show();
-                        TapTargetView.showFor(dialog,
-                                TapTarget.forView(dialog.getButton(DialogInterface.BUTTON_POSITIVE), "Uh oh!", "You canceled the sequence at step " + lastTarget.id())
-                                        .cancelable(false)
-                                        .tintTarget(false), new TapTargetView.Listener() {
-                                    @Override
-                                    public void onTargetClick(TapTargetView view) {
-                                        super.onTargetClick(view);
-                                        dialog.dismiss();
-                                    }
-                                });
-                    }
-                });
-
-        final SpannableString spannedDesc = new SpannableString("For get back into Input Your telephone number");
-        spannedDesc.setSpan(new UnderlineSpan(), spannedDesc.length() - "TapTargetView".length(), spannedDesc.length(), 0);
-        TapTargetView.showFor(this, TapTarget.forView(findViewById(R.id.fab), "Welcome to Telephone number Book ! This is Back Button!", spannedDesc)
-                .cancelable(false)
-                .drawShadow(true)
-                .titleTextDimen(R.dimen.title_text_size)
-                .tintTarget(false), new TapTargetView.Listener() {
-            @Override
-            public void onTargetClick(TapTargetView view) {
-                super.onTargetClick(view);
-                // .. which evidently starts the sequence we defined earlier
-                sequence.start();
-            }
-
-            @Override
-            public void onOuterCircleClick(TapTargetView view) {
-                super.onOuterCircleClick(view);
-                Toast.makeText(view.getContext(), "You clicked the outer circle!", Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public void onTargetDismissed(TapTargetView view, boolean userInitiated) {
-                Log.d("TapTargetViewSample", "You dismissed me :(");
-            }
-        });
     }
 
     public void getContacts() {

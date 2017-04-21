@@ -37,13 +37,13 @@
         android:id="@+id/circularButton1"
         android:layout_width="196dp"
         android:layout_height="64dp"
-        android:onClick="getlist"
         android:fontFamily="sans-serif-smallcaps"
         android:textSize="18sp"
         android:layout_marginTop="50dp"
         android:layout_below="@+id/materialTextField"
         android:layout_centerHorizontal="true"
-        android:text="Check Contract list"/>
+        android:onClick="getlist"
+        android:text="Check Contact list"/>
 
     <com.github.florent37.materialtextfield.MaterialTextField
         android:layout_width="300dp"

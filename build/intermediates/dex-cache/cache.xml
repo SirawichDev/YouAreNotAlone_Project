@@ -264,6 +264,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\241d5b692062033a57ea0f338142889c2f069872\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="88c6386ad8356b89487b43bcaae4827b1abe999c">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0fb0c415ab81da0f319dec1a2af98a7514a57186\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\TimeStoper\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.2.0\c0b52915a48fa91b1b94a28d4a2997bac5f524df\okio-1.2.0.jar"
         jumboMode="false"
         optimize="true"
@@ -504,6 +513,15 @@
         revision="25.0.1"
         sha1="89ba8466f3e32427af7aa725eb7be31a15c78a77">
         <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_94126f548b2d0e8e774f2c44da6ae59c1a7ba78d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TimeStoper\.android\build-cache\ff88b4f887bc1159faf6393a6ec802909dda7ee5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="961d79128f594dda45688dba408e9eb27cb55724">
+        <dex dex="C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cf9445ce4646b3e8d07fc33ba755eb0058a4af48\classes.dex" />
     </item>
     <item
         is-multidex="true"

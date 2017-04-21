@@ -130,7 +130,7 @@ public class Teleinput extends AppCompatActivity {
     }
     public void getcontractlist(){
         _Cir.setEnabled(true);
-        Intent newAc = new Intent(Teleinput.this,Navchannel.class);
+        Intent newAc = new Intent(Teleinput.this,CiontractList.class);
         newAc.putExtra("Phonex",passwords);
         startActivity(newAc);
         finish();
