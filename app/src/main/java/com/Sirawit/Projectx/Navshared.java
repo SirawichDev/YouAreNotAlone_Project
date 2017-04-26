@@ -26,12 +26,13 @@ import devlight.io.library.ntb.NavigationTabBar;
 public class Navshared extends AppCompatActivity {
     public String passwords;
     String channelName;
-
+String Position;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navshared);
-
+        Intent intent = getIntent();
+        Position = intent.getStringExtra("Pos");
         initUI();
 
     }
@@ -84,6 +85,7 @@ public class Navshared extends AppCompatActivity {
                    final  View view = LayoutInflater.from(
                             getBaseContext()).inflate(R.layout.activity_teleinput, null, false);
                   final  EditText get = (EditText) view.findViewById(R.id.enter);
+                    get.setText(Position);
                     final Button but = (Button) view.findViewById((R.id.enterphone));
 
                         but.setOnClickListener(new View.OnClickListener(){

@@ -196,7 +196,7 @@ public class GMapsShareLocationActivity extends ActionBarActivity implements
     public void onShake() {
         try {
 
-            msg = "Help!! i'am at " + mLatLng;
+            msg = "https://www.google.com/maps/place"+mLatLng;
             SmsManager smsManager = SmsManager.getDefault();
             smsManager.sendTextMessage(Phonenumber, null, msg, null, null);
             Toast.makeText(getApplicationContext(), "Message Sent",

@@ -224,6 +224,10 @@
         "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\158bab35ace04c8a3506becfb9ff825ca9f6388c\\output\\res\\layout\\mtf_layout.xml"
     },
     {
+        "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_empty.xml",
+        "source": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\src\\main\\res\\layout\\activity_empty.xml"
+    },
+    {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\9e34fadb986876c8f2bd826fb0171de5e6703c18\\output\\res\\layout\\abc_action_mode_bar.xml"
     },

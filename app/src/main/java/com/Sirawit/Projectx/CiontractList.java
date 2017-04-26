@@ -88,6 +88,9 @@ public class CiontractList extends Activity {
                 ClipboardManager cm = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(Phone.get(position));
                 Toast.makeText(getApplicationContext(), "Copied : \n" + Phone.get(position), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(CiontractList.this, Navshared.class);
+                intent.putExtra("Pos",Phone.get(position));
+                startActivity(intent);
             }
         });
 

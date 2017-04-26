@@ -4,6 +4,10 @@
         "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\9e34fadb986876c8f2bd826fb0171de5e6703c18\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
+        "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_web.png",
+        "source": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\src\\main\\res\\drawable\\ic_web.png"
+    },
+    {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
         "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\9e34fadb986876c8f2bd826fb0171de5e6703c18\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
@@ -74,6 +78,10 @@
     {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
         "source": "C:\\Users\\TimeStoper\\.android\\build-cache\\44870179a4da0c383dd12bd79d261bfce71fe08f\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\xd.jpg",
+        "source": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\src\\main\\res\\drawable\\xd.jpg"
     },
     {
         "merged": "C:\\Users\\TimeStoper\\Desktop\\Android Location Broadcast Code\\ProJectx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",

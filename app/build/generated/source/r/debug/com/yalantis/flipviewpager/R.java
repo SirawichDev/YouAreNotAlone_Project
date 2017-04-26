@@ -350,7 +350,7 @@ public final class R {
         public static final int end = 0x7f0e0030;
         public static final int expand_activities_button = 0x7f0e0066;
         public static final int expanded_menu = 0x7f0e007b;
-        public static final int flip_view = 0x7f0e00c2;
+        public static final int flip_view = 0x7f0e00c0;
         public static final int home = 0x7f0e0004;
         public static final int homeAsUp = 0x7f0e001a;
         public static final int icon = 0x7f0e006a;
@@ -410,8 +410,8 @@ public final class R {
         public static final int abc_screen_toolbar = 0x7f040017;
         public static final int abc_search_dropdown_item_icons_2line = 0x7f040018;
         public static final int abc_search_view = 0x7f040019;
-        public static final int flipper = 0x7f04003b;
-        public static final int support_simple_spinner_dropdown_item = 0x7f040053;
+        public static final int flipper = 0x7f04003c;
+        public static final int support_simple_spinner_dropdown_item = 0x7f040054;
     }
     public static final class string {
         public static final int abc_action_bar_home_description = 0x7f070000;

@@ -38,17 +38,17 @@ public final class R {
         public static final int round_corner_progress_bar_secondary_progress_default = 0x7f0c0077;
     }
     public static final class id {
-        public static final int iv_progress_icon = 0x7f0e00c4;
-        public static final int layout_background = 0x7f0e00c3;
-        public static final int layout_progress = 0x7f0e00c7;
-        public static final int layout_progress_holder = 0x7f0e00c5;
-        public static final int layout_secondary_progress = 0x7f0e00c6;
-        public static final int tv_progress = 0x7f0e00c8;
+        public static final int iv_progress_icon = 0x7f0e00c2;
+        public static final int layout_background = 0x7f0e00c1;
+        public static final int layout_progress = 0x7f0e00c5;
+        public static final int layout_progress_holder = 0x7f0e00c3;
+        public static final int layout_secondary_progress = 0x7f0e00c4;
+        public static final int tv_progress = 0x7f0e00c6;
     }
     public static final class layout {
-        public static final int layout_icon_round_corner_progress_bar = 0x7f04003c;
-        public static final int layout_round_corner_progress_bar = 0x7f04003d;
-        public static final int layout_text_round_corner_progress_bar = 0x7f04003e;
+        public static final int layout_icon_round_corner_progress_bar = 0x7f04003d;
+        public static final int layout_round_corner_progress_bar = 0x7f04003e;
+        public static final int layout_text_round_corner_progress_bar = 0x7f04003f;
     }
     public static final class mipmap {
         public static final int round_corner_progress_icon = 0x7f030001;

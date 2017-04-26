@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.atlanticlab.pubnubmaptracker"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.0" />
+
+    <application
+        android:allowBackup="true"
+        android:fontFamily="serif-monospace"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_web"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Dark" >
+        <activity
+            android:name="com.Sirawit.Projectx.LoginActivity"
+            android:fontFamily="serif-monospace"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <uses-permission android:name="android.permission.SEND_SMS" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.Sirawit.Projectx.GMapsShareLocationActivity"
+            android:label="@string/gmaps_share_location_activity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.Sirawit.Projectx.GMapsFollowLocationActivity"
+            android:label="@string/gmaps_follow_location_activity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.Sirawit.Projectx.MainActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name="com.Sirawit.Projectx.Channel"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.Sirawit.Projectx.Mode"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.Sirawit.Projectx.Channelforfollow"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.Sirawit.Projectx.Teleinput"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.Sirawit.Projectx.CiontractList"
+            android:theme="@style/AppTheme.Dark" />
+        >
+        <activity
+            android:name="com.Sirawit.Projectx.HorizontalNtbActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.Sirawit.Projectx.nav2"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.Sirawit.Projectx.Navshared"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.Sirawit.Projectx.Navchannel"
+            android:theme="@style/AppTheme.Dark" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyA4LmrIb9a-kkb-5OFCEgZY06yIqQbBFFg" />
+
+        <uses-feature
+            android:glEsVersion="0x00020000"
+            android:required="true" />
+
+        <!-- Requires OpenGL ES version 2 -->
+        <uses-feature
+            android:glEsVersion="0x00020000"
+            android:required="true" />
+
+        <activity android:name="com.Sirawit.Projectx.Aboutme" />
+    </application>
+
+</manifest>

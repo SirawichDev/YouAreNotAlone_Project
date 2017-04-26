@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/scroll_bar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fbutton_color_clouds"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    tools:context=".Aboutme">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp">
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@drawable/xd"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="MY SKILL :3"
+            android:textColor="@color/fbutton_color_carrot"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/fbutton_color_asbestos"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.akexorcist.roundcornerprogressbar.TextRoundCornerProgressBar
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                app:rcBackgroundColor="@color/fbutton_color_peter_river"
+                app:rcBackgroundPadding="10dp"
+                app:rcMax="80"
+                app:rcProgress="50"
+                app:rcProgressColor="@color/fbutton_color_concrete"
+                app:rcRadius="30dp"
+
+                app:rcSecondaryProgressColor="@color/fbutton_color_sun_flower"
+                app:rcTextProgress="JAVA"
+                app:rcTextProgressColor="@color/white"
+                app:rcTextProgressMargin="20dp"
+                app:rcTextProgressSize="20sp" />
+            <com.akexorcist.roundcornerprogressbar.TextRoundCornerProgressBar
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                app:rcBackgroundColor="@color/fbutton_color_belize_hole"
+                app:rcBackgroundPadding="10dp"
+                app:rcMax="80"
+                app:rcProgress="40"
+                app:rcProgressColor="@color/fbutton_color_carrot"
+                app:rcRadius="30dp"
+
+                app:rcSecondaryProgressColor="@color/wallet_dim_foreground_inverse_disabled_holo_dark"
+                app:rcTextProgress="C"
+                app:rcTextProgressColor="@color/white"
+                app:rcTextProgressMargin="20dp"
+                app:rcTextProgressSize="20sp" />
+            <com.akexorcist.roundcornerprogressbar.TextRoundCornerProgressBar
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                app:rcBackgroundColor="@color/fbutton_color_wisteria"
+                app:rcBackgroundPadding="10dp"
+                app:rcMax="40"
+                app:rcProgress="50"
+                app:rcProgressColor="@color/fbutton_color_concrete"
+                app:rcRadius="30dp"
+                app:rcTextProgress="C++"
+                app:rcTextProgressColor="@color/white"
+                app:rcTextProgressMargin="20dp"
+                app:rcTextProgressSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Contact Me !!"
+        android:textAlignment="center"
+        android:textColor="@color/fbutton_color_carrot"
+        android:textSize="18sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp">>
+        <com.akexorcist.roundcornerprogressbar.TextRoundCornerProgressBar
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            app:rcBackgroundColor="@color/cpb_green"
+            app:rcBackgroundPadding="10dp"
+            app:rcMax="100"
+            app:rcProgress="50"
+            app:rcProgressColor="@color/fbutton_color_concrete"
+            app:rcRadius="30dp"
+
+            app:rcSecondaryProgressColor="@color/fbutton_color_sun_flower"
+            app:rcTextProgress="sirawit0676@gmail.com"
+            app:rcTextProgressColor="@color/white"
+            app:rcTextProgressMargin="20dp"
+            app:rcTextProgressSize="20sp" />
+    </LinearLayout>
+</LinearLayout>
+        </LinearLayout>
+
+</ScrollView>

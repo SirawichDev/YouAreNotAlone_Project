@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView android:src="@drawable/ss"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="200dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Security app for you"
+            android:layout_gravity="center_horizontal"/>
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btn_login"
+            fbutton:shadowHeight="2dp"
+            fbutton:cornerRadius="20dp"
+            fbutton:buttonColor="@color/white"
+            fbutton:shadowEnabled="true"
+            android:layout_width="335dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="100dp"
+
+            android:padding="50dp"
+            android:text="Let's Go.."
+            android:textColor="@color/fbutton_color_belize_hole"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+</ScrollView>

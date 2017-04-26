@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:2:1-103:12
+ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:2:1-104:12
 	package
 		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml
@@ -60,7 +60,7 @@ ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\
 	android:name
 		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:21:22-68
 application
-ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:24:5-101:19
+ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:24:5-102:19
 MERGED from [com.google.android.gms:play-services:6.5.87] C:\Users\TimeStoper\.android\build-cache\c06409eb91e1eddadc389de0204c4f4f716b5c13\output\AndroidManifest.xml:20:5-24:19
 MERGED from [com.github.chenupt.android:springindicator:1.0.2] C:\Users\TimeStoper\.android\build-cache\e1827c534b4da647cafe305a6fdbcbd0f178514b\output\AndroidManifest.xml:11:5-20
 MERGED from [devlight.io:navigationtabbar:1.2.5] C:\Users\TimeStoper\.android\build-cache\be6183c83df5894831590091dae109432790f465\output\AndroidManifest.xml:23:5-26:38
@@ -81,19 +81,19 @@ MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\TimeStoper\.an
 MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\TimeStoper\.android\build-cache\5cada92d8897d849c79086266ae1ca3e7e3cf289\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.0] C:\Users\TimeStoper\.android\build-cache\3ea15d94610eafab9091ec7513c525321b6ce835\output\AndroidManifest.xml:29:5-20
 	android:fontFamily
-		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:27:9-45
+		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:26:9-45
 	android:label
-		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:30:9-41
+		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:29:9-41
 	android:supportsRtl
 		ADDED from [devlight.io:navigationtabbar:1.2.5] C:\Users\TimeStoper\.android\build-cache\be6183c83df5894831590091dae109432790f465\output\AndroidManifest.xml:26:9-35
 	android:hardwareAccelerated
-		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:28:9-43
+		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:27:9-43
 	android:allowBackup
 		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:25:9-35
 	android:icon
-		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:29:9-45
+		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:28:9-40
 	android:largeHeap
-		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:26:9-33
+		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:30:9-33
 	android:theme
 		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:31:9-45
 activity#com.Sirawit.Projectx.LoginActivity
@@ -204,11 +204,16 @@ ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\
 	android:name
 		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:88:13-62
 activity#com.Sirawit.Projectx.Aboutme
-ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:100:9-54
+ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:100:9-45
 	android:name
 		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:100:19-42
+activity#com.Sirawit.Projectx.EmptyActivity
+ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:101:9-60
+	android:name
+		ADDED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml:101:19-48
 uses-sdk
 INJECTED from C:\Users\TimeStoper\Desktop\Android Location Broadcast Code\ProJectx\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\TimeStoper\.android\build-cache\08ed6c4d77f6fa04ef6bff166c4dc51c8298c099\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services:6.5.87] C:\Users\TimeStoper\.android\build-cache\c06409eb91e1eddadc389de0204c4f4f716b5c13\output\AndroidManifest.xml:18:5-42
 MERGED from [com.github.chenupt.android:springindicator:1.0.2] C:\Users\TimeStoper\.android\build-cache\e1827c534b4da647cafe305a6fdbcbd0f178514b\output\AndroidManifest.xml:7:5-9:41
 MERGED from [info.hoang8f:fbutton:1.0.5] C:\Users\TimeStoper\.android\build-cache\d20e4063b371b4a4c10a79694c757c5c84fbe95a\output\AndroidManifest.xml:7:5-9:41
